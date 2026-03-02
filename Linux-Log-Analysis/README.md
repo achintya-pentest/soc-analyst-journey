@@ -55,4 +55,4 @@ less combined_access.log
 ---
 ## 📎 Detailed Notes
 Detailed notes for this topic can be found here:
-https://github.com/yourusername/linux-learning-journey/blob/main/basics/log-analysis.md
+https://github.com/achintya-pentest/linux-learning-journey/blob/main/basics/log-analysis.md
