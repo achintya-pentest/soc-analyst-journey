@@ -13,7 +13,7 @@ In this investigation, a PCAP file containing network traffic was analyzed using
 ## Command Used
 
 ```
-sudo snort -q -l /var/log/snort -r Task.pcap -A console -c /etc/snort/snort.conf
+sudo snort -q -l /var/log/snort -r Task.pcap -A console -c /etc/snort/snort.lua
 ```
 
 ## Command Breakdown
@@ -23,7 +23,7 @@ sudo snort -q -l /var/log/snort -r Task.pcap -A console -c /etc/snort/snort.conf
 * `-l /var/log/snort` → Directory where Snort logs are stored.
 * `-r Task.pcap` → Reads packets from the PCAP file instead of monitoring live traffic.
 * `-A console` → Displays alerts directly in the terminal.
-* `-c /etc/snort/snort.conf` → Loads the Snort configuration and rule set.
+* `-c /etc/snort/snort.lua` → Loads the Snort configuration and rule set.
 
 ## Investigation Process
 
