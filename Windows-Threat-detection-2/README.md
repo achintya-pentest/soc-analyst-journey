@@ -128,10 +128,10 @@ Malware searched for:
 
 ### Same payload downloaded using multiple tools:
 
-**Browser:**
-**curl:**
-**certutil:**
-**PowerShell:**
+- **Browser:**
+- **curl:**
+- **certutil:**
+- **PowerShell:**
 
 ---
 
